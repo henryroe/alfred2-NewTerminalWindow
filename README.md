@@ -1,7 +1,7 @@
 alfred2-NewTerminalWindow
 =========================
 
-Alfred2 workflow to open a new Terminal.app window of type ['Basic', 'Grass', 'Homebrew', etc..
+Alfred2 workflow to open a new Terminal.app window of type ['Basic', 'Grass', 'Homebrew', etc..]
 
 # Usage
 
