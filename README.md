@@ -28,3 +28,9 @@ The list of offered terminal types is gathered from screen snapshots sitting ins
 To remove options, simply remove the appropriate *png* file from the Workflow directory.
 
 To add options, open a new terminal window of the new profile, take a screen snapshot (⌘-4 followed by space bar followed by clicking on the window; the screenshot will then be on your Desktop).  Rename the screenshot as above and move to the Workflow directory.
+
+Though not necessary, you can compress your new screenshots by going into the workflow older and running the following on the command line.  This reduces the ~110-120K screenshot files down to ~5K.
+
+    find . -size +30k -and -name "*.png" | xargs -I {} convert -scale 200 {} {}
+
+Because these screenshots are being used for tiny icons, this compression is just fine and probably could be to even much smaller sizes.
