@@ -3,6 +3,10 @@ alfred2-NewTerminalWindow
 
 Alfred2 workflow to open a new Terminal.app window of type ['Basic', 'Grass', 'Homebrew', etc..]
 
+# Installation
+
+[Download current version from here](https://github.com/henryroe/alfred2-NewTerminalWindow/blob/master/New%20Terminal%20Window.alfredworkflow?raw=true)
+
 # Usage
 
 Type `nt` to see a list of available types of Terminal.app windows to open.  
